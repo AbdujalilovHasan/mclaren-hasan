@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;400;600&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: 'Mitr', sans-serif;
+	list-style: none;
+}
+
+section{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	background: url('../img/background.jpg') no-repeat;
+	background-size: cover;
+	color: #FFF;
+}
+
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 30px 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 10;
+}
+
+header img{
+	position: relative;
+	height: 30px;
+	width: auto;
+	cursor: pointer;
+}
+
+.content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	padding: 0 80px;
+}
+
+.text-box{ display: contents; }
+
+.text-box .left h1{
+	padding-bottom: 5px;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 75px;
+}
+
+.text-box .left p{
+	padding-bottom: 40px;
+	width: 325px;
+	font-weight: 200;
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.text-box .left a{
+	padding: 10px 40px;
+	text-align: center;
+	color: #FFF;
+	border: solid 2px #FFF;
+	transition: .5s;
+}
+
+.text-box .left a:hover{
+	color: #FFF;
+	border: solid 2px #FF0000;
+	background: #FF0000;
+}
+
+.configuration li{
+	padding: 10px 0;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 50px;
+	text-align: right;
+}
+
+.navigation{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	width: 100%;
+	bottom: 40px;
+}
+
+.navigation li{
+	margin: 0 20px;
+	font-size: 18px;
+}
+
+.navigation li a{ color:#A6A6A6; transition: .5s }
+
+.navigation li a:hover{ color:#FF0000; }
